@@ -1,0 +1,180 @@
+.background-grid {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.background-img {
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.index-img {
+    height: 370px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.index-img-background {
+    background-image: url(../img/index_img.jpg);
+
+}
+
+.index-img-background_star {
+    background-image: url(../img/background_star.png);
+
+}
+
+.index-img-ct2code {
+    background-image: url(../img/CT2Code_2.jpg);
+
+}
+
+.index-img-app {
+    background-image: url(../img/APP_2.jpg);
+}
+
+.index-img-place {
+    background-image: url(../img/place.jpg);
+}
+
+.index-img-teaching {
+    background-image: url(../img/teaching.jpg);
+}
+
+
+.index-grid-padding-img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.index-grid-padding-text {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+/*nav*/
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 56px;
+        /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #343a40;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+.nav-underline .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-underline .active {
+    font-weight: 500;
+    color: #343a40;
+}
+
+
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+
+/*End nav*/
+
+/*footer*/
+.footer {
+
+
+    height: 150px;
+    width: 100%;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #0a0d45;
+}
+
+
+
+/*End footer*/
+
+.bg-blue {
+    background-color: #0a0d45;
+    box-shadow: 0px 3px 8px 0px #000;
+    /*陰影*/
+}
+
+.bg-blue .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+
+.nav-link {
+    color: #a9e4fe !important;
+}
+
+.offcanvas-collapse {
+    background-color: #0a0d45;
+}
+
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}

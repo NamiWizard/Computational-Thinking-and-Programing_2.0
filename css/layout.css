@@ -11,6 +11,13 @@
     background-position: center;
 }
 
+.background-video {
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
 .index-img {
     height: 370px;
     width: 100%;
@@ -18,34 +25,95 @@
     background-position: center;
 }
 
+.application-img {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/*img*/
+
 .index-img-background {
-    background-image: url(../img/index_img.jpg);
+    background-image: url(../img/index/index_background.jpg);
 
 }
 
+
+
 .index-img-background_star {
-    background-image: url(../img/background_star.png);
+    background-image: url(../img/index/background_star.png);
 
 }
 
 .index-img-ct2code {
-    background-image: url(../img/CT2Code_2.jpg);
+    background-image: url(../img/index/CT2Code_2.jpg);
 
 }
 
 .index-img-app {
-    background-image: url(../img/APP_2.jpg);
+    background-image: url(../img/index/APP_2.jpg);
 }
 
 .index-img-place {
-    background-image: url(../img/place.jpg);
+    background-image: url(../img/index/place.jpg);
 }
 
 .index-img-teaching {
-    background-image: url(../img/teaching.jpg);
+    background-image: url(../img/index/teaching.jpg);
+}
+
+.software-img-background {
+    background-image: url(../img/software/cr2code.jpg);
+}
+
+.software-img-demo1 {
+    background-image: url(../img/software/ct2code_demo_1.png);
+    height: 400px;
+}
+
+.software-img-demo2 {
+    background-image: url(../img/software/ct2code_demo_2.png);
+    height: 400px;
+}
+
+.software-img-demo3 {
+    background-image: url(../img/software/ct2code_demo_3.png);
+    height: 400px;
+}
+
+.place-img-background {
+    background-image: url(../img/place/place_background.jpg);
+}
+
+.application-img-background {
+    background-image: url(../img/application/application_background.jpg);
+}
+
+.application-screen {
+    background-image: url(../img/application/screen.png);
+
+}
+
+/*End img*/
+/*video*/
+
+.index-video-background {
+    background-image: url(../img/index/index_background_movie.mp4);
+
 }
 
 
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/* End Video*/
 .index-grid-padding-img {
     padding-top: 15px;
     padding-bottom: 15px;
